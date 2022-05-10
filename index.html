@@ -7,11 +7,32 @@
     <title>manipulation du Dom</title>
   </head>
   <body>
+    <style>
+      .list-style-none {
+        list-style: none;
+      }
+    </style>
     <h1>Students</h1>
-    <ul>
-      <li>Trigo</li>
-      <li>Junior</li>
-      <li>Isaac</li>
+    <ul class="list">
+      <li id="item-1">Trigo</li>
+      <li id="item-2">Junior</li>
+      <li id="item-3">Isaac</li>
     </ul>
+
+    <form>
+      <div>
+        <input type="text" name="name" id="name" />
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Ajouter" />
+      </div>
+    </form>
+
+    <script src="./scripts.js"></script>
   </body>
 </html>
+
+<script>
+  document.getElementById("element_id");
+</script>
